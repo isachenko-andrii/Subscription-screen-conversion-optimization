@@ -58,6 +58,7 @@ The project includes:
     |     | - processed/ — cleaned data  
     | - notebooks/ — main file with analysis code (Project_0002p.ipynb)  
     | - results/ — saved graphs and final tables  
+    | - reports/ — report of project  
     | - Project-logo.png — project cover  
     | - LICENSE — license file  
     | - requirements.txt — list of libraries to run the project  
