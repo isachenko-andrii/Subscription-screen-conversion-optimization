@@ -3,11 +3,13 @@
 
 ## Project title: Subscription screen conversion optimization (A/B Test)  
   
-## Project description  
-This project is about statistically analyzing A/B testing results to evaluate the effectiveness of product changes. We analyzed data from 20,000 users to determine whether the difference in conversion between the control (A) and test (B) groups is statistically significant.  
-
+## Project Description
+This project analyzes A/B testing results. The goal of the study is to test the hypothesis that visually highlighting a benefit (adding a "50% Off" banner) will increase conversion to a weekly subscription, even if the actual price ($4.99) remains unchanged.  
+  
+## Problem Statement  
+It is necessary to determine whether the difference in user behavior between the control and test groups is statistically significant. The business objective is to make a data-driven decision: implement the new payment screen design for 100% of traffic or maintain the current version.  
+  
 ## Data used  
-The analysis used open data from ...  
   **Source:** [ab_test_data.csv](https://github.com/isachenko-andrii/Subscription-screen-conversion-optimization/blob/main/data/raw/ab_test_data.csv)   
   **Sample size:** 20,000 users 
   **Data composition:**  
