@@ -52,17 +52,17 @@ The project includes:
   
 ## Project structure
 
-**Project-0002p/** — project directory  
-    | - data/ — project data  
-    |     | - raw/ — raw data  
-    |     | - processed/ — cleaned data  
-    | - notebooks/ — main file with analysis code (Project_0002p.ipynb)  
-    | - results/ — saved graphs and final tables  
-    | - reports/ — report of project  
-    | - Project-logo.png — project cover  
-    | - LICENSE — license file  
-    | - requirements.txt — list of libraries to run the project  
-    | - README.md — project description.  
+**Subscription-screen-conversion-optimization/** — project directory  
+    ├── data/ — project data  
+    │ ├──  raw/ — raw data  
+    │ └──  processed/ — cleaned data  
+    ├── notebooks/ — main file with analysis code (Project_0002p.ipynb)  
+    ├── results/ — saved graphs and final tables  
+    ├── reports/ — report of project  
+    ├── Project-logo.png — project cover  
+    ├── LICENSE — license file  
+    ├── requirements.txt — list of libraries to run the project  
+    └── README.md — project description.  
   
 ## How to Use  
   
@@ -80,7 +80,7 @@ File location: https://github.com/isachenko-andrii/Subscription-screen-conversio
 [ab_test_data.csv](https://github.com/isachenko-andrii/Subscription-screen-conversion-optimization/blob/main/data/raw/ab_test_data.csv) 
 
 File location:  
-https://github.com/isachenko-andrii/Python-projects/blob/main/Project-0002p/data/raw/   
+https://github.com/isachenko-andrii/Subscription-screen-conversion-optimization/blob/main/data/raw/    
 
 CSV file content:  
   
