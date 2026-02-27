@@ -14,7 +14,7 @@ It is necessary to determine whether the difference in user behavior between the
   
 ## Data used  
   **Source:** [ab_test_data.csv](https://github.com/isachenko-andrii/Subscription-screen-conversion-optimization/blob/main/data/raw/ab_test_data.csv)   
-  **Sample size:** 20,000 users 
+  **Sample size:** 20,000 users  
   **Data composition:**  
   The dataset contains granular information about user interactions during an A/B testing experiment, including unique user identifiers, precise event timestamps, experimental group assignments (Control vs. Variant), and binary conversion outcomes.  
 
