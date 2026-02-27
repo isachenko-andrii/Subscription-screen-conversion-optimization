@@ -25,19 +25,25 @@ The analysis used open data from ...
 **Libraries:** Pandas, NumPy (data processing), Matplotlib & Seaborn (visualization), SciPy (Statistical Analysis).  
 **Environment:** Jupyter Notebook / Google Colab.  
 
-## Key stages of analysis  
-  **1. Data Cleaning:** Cleansing data from duplicates, handling missing values, and formatting timestamps.  
-  **2. Pre-test Analysis:** Calculation of the required sample size (Power Analysis) to determine the sensitivity of the test.  
-  **3. Statistical Testing:** Conduct an independent T-test using scipy.stats to test hypotheses.  
-  **4. Visual Analysis:** Construct normal distribution curves ("bell curves") for group comparisons.  
-    - Visualize conversion dynamics using a 3-day rolling mean.  
-    - Compare means with 95% confidence intervals.  
+## Methodology and Implementation Steps  
+
+**- Pre-test Analysis:** Calculating the required sample size to achieve 80% power and a 5% significance level.  
+**- Data Cleaning:** Cleaning the dataset (20,000 records), removing duplicates, checking for missing data, and converting data types.  
+**- Hypothesis Testing:**  
+      Conducting a Z-test to compare hypotheses.  
+      Conducting a T-test to verify mean values.  
+   
+**- Visual Interpretation:** Plotting density distribution graphs (PDF), confidence intervals, and conversion dynamics.  
    
 ## Key results  
    
 **Conversion of group A:** 6.10%  
 **Conversion of group B:** 8.90%  
 **P-value:** 0.000000000000054 (the result is statistically significant).  
+**Relative growth:** +45.9%  
+**Statistics: The resulting p-value (0.00000000000005) is significantly less than the threshold of 0.05.  
+**Z-statistic:** 7.52 (above the critical value of 1.96).  
+  
 **Conclusion:** Test variant B showed a steady increase in conversion. The test result is positive. Hypothesis H1 is confirmed. It is recommended to implement a new design of the Subscription screen for all users.    
   
  ## Visualizations  
@@ -46,7 +52,9 @@ The project includes:
  - Probability distribution conversion rate.
   
 ![Probability-distribution-Conversion-Rate](https://github.com/isachenko-andrii/Subscription-screen-conversion-optimization/raw/main/results/Probability_distribution_Conversion_Rate_(v2).png)  
-  
+
+- Probability distribution density.
+    
 ![Probability-distribution-Conversion-Rate](https://github.com/isachenko-andrii/Subscription-screen-conversion-optimization/raw/main/results/Probability_Distribution_Conversion_Rate_(v1).png)  
 
 - Conversion dynamics
