@@ -41,7 +41,7 @@ The analysis used open data from ...
 **Conversion of group B:** 8.90%  
 **P-value:** 0.000000000000054 (the result is statistically significant).  
 **Relative growth:** +45.9%  
-**Statistics: The resulting p-value (0.00000000000005) is significantly less than the threshold of 0.05.  
+**Statistics:** The resulting p-value (0.00000000000005) is significantly less than the threshold of 0.05.  
 **Z-statistic:** 7.52 (above the critical value of 1.96).  
   
 **Conclusion:** Test variant B showed a steady increase in conversion. The test result is positive. Hypothesis H1 is confirmed. It is recommended to implement a new design of the Subscription screen for all users.    
