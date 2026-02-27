@@ -45,9 +45,13 @@ The analysis used open data from ...
 The project includes:  
  - Probability distribution conversion rate.
   
-![Probability-distribution-Conversion-Rate](https://github.com/isachenko-andrii/Subscription-screen-conversion-optimization/raw/main/results/Probability-distribution-Conversion-Rate.png)
-
+![Probability-distribution-Conversion-Rate](https://github.com/isachenko-andrii/Subscription-screen-conversion-optimization/raw/main/results/Probability_Distribution_Conversion_Rate_(v2).png)  
   
+![Probability-distribution-Conversion-Rate](https://github.com/isachenko-andrii/Subscription-screen-conversion-optimization/raw/main/results/Probability_Distribution_Conversion_Rate_(v1).png)  
+
+- Conversion dynamics
+  
+![Probability-distribution-Conversion-Rate](https://github.com/isachenko-andrii/Subscription-screen-conversion-optimization/raw/main/results/Conversion_dynamics.png)
  
   
 ## Project structure
