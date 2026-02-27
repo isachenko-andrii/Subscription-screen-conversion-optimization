@@ -1,7 +1,10 @@
 
 ![Project-logo](https://github.com/isachenko-andrii/Subscription-screen-conversion-optimization/raw/main/project-logo.png)
-
-## Project title: Subscription screen conversion optimization (A/B Test)  
+<div align="center">  
+    
+## Project title: Subscription screen conversion optimizatio<br>(A/B Test)   
+  
+</div>
   
 ## Project Description
 This project analyzes A/B testing results. The goal of the study is to test the hypothesis that visually highlighting a benefit (adding a "50% Off" banner) will increase conversion to a weekly subscription, even if the actual price ($4.99) remains unchanged.  
