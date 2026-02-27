@@ -30,8 +30,8 @@ The analysis used open data from ...
 **- Pre-test Analysis:** Calculating the required sample size to achieve 80% power and a 5% significance level.  
 **- Data Cleaning:** Cleaning the dataset (20,000 records), removing duplicates, checking for missing data, and converting data types.  
 **- Hypothesis Testing:**  
-      Conducting a Z-test to compare hypotheses.  
-      Conducting a T-test to verify mean values.  
+ * Conducting a Z-test to compare hypotheses.  
+ * Conducting a T-test to verify mean values.  
    
 **- Visual Interpretation:** Plotting density distribution graphs (PDF), confidence intervals, and conversion dynamics.  
    
