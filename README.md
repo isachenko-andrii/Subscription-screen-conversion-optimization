@@ -60,7 +60,7 @@ The project includes:
     ├── results/ — saved graphs and final tables  
     ├── reports/ — report of project  
     ├── Project-logo.png — project cover  
-    ├── LICENSE — license file  
+    ├── LICENSE — MIT License  
     ├── requirements.txt — list of libraries to run the project  
     └── README.md — project description.  
   
