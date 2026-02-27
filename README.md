@@ -2,7 +2,7 @@
 ![Project-logo](https://github.com/isachenko-andrii/Subscription-screen-conversion-optimization/raw/main/project-logo.png)
 <div align="center">  
     
-## Project title: Subscription screen conversion optimizatio<br>(A/B Test)   
+## Subscription screen conversion optimization<br>(A/B Test)   
   
 </div>
   
