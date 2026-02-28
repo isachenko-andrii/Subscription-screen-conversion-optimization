@@ -1,4 +1,3 @@
-
 ![Project-logo](https://github.com/isachenko-andrii/Subscription-screen-conversion-optimization/raw/main/project-logo.png)
 <div align="center">  
     
