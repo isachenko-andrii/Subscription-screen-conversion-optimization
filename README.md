@@ -73,7 +73,7 @@ The project includes:
     ├── data/ — project data  
     │ ├──  raw/ — raw data  
     │ └──  processed/ — cleaned data  
-    ├── notebooks/ — main file with analysis code (Project_0002p.ipynb)  
+    ├── notebooks/ — main file with analysis code  
     ├── results/ — saved graphs and final tables  
     ├── reports/ — report of project  
     ├── Project-logo.png — project cover  
