@@ -21,15 +21,15 @@
 
  ## Ключові атрибути даних  
    
-**User Identification:** Unique user IDs to ensure sample integrity and track repeat interactions.  
-**Temporal Data:** Timestamps that allow you to analyze test duration, seasonality, and conversion dynamics over time.  
-**Experimental Grouping:** Dividing the audience into segments (Group A and Group B) for comparative analysis of the effectiveness of changes.  
-**Conversion Metrics:** Binary indicators of success (completion or failure of the target action), which is the basis for the statistical calculation of Conversion Rate.  
+**Ідентифікація користувача:** Унікальні ідентифікатори користувачів для забезпечення цілісності зразка та відстеження повторних взаємодій.  
+**Часові дані:** Мітки часу, які дозволяють аналізувати тривалість тестування, сезонність та динаміку конверсій з плином часу.  
+**Експериментальне групування**: Поділ аудиторії на сегменти (Група А та Група Б) для порівняльного аналізу ефективності змін.  
+**Показники конверсії**: бінарні показники успіху (завершення або невдачі цільової дії), що є основою для статистичного розрахунку коефіцієнта конверсії.  
   
 ## Технологічний стек  
-**Language:** Python 3.12  
-**Libraries:** Pandas, NumPy (data processing), Matplotlib & Seaborn (visualization), SciPy (Statistical Analysis).  
-**Environment:** Jupyter Notebook / Google Colab.  
+**Мова програмування:** Python 3.12  
+**Бібліотеки:** Pandas, NumPy (data processing), Matplotlib & Seaborn (visualization), SciPy (Statistical Analysis).  
+**Навколишнє середовище:** Jupyter Notebook / Google Colab.  
 
 ## Методологія та етапи впровадження  
 
