@@ -140,18 +140,18 @@ df_url = '/content/ab_test_data.csv'
 **Now:**   
 df_url = 'path to file.. /ab_test_data.csv'  
   
-## Contact  
+## Контакти  
     
-**Name:** [Andrii Isachenko](https://isachenko-andrii.github.io)    
+**Ім'я:** [Andrii Isachenko](https://isachenko-andrii.github.io)    
 **LinkedIn:** [Andrii Isachenko](https://www.linkedin.com/in/isachenko-andrii/)  
 **E-mail:** isao.datastudio@gmail.com   
+    
+## Подяки    
   
-## Acknowledgments    
-  
- - Thanks to the [Data Analyst/GoIT](https://goit.global/ua/courses/data-analytics/) course, which was part of this project.
+ - Висловлюю подяку [Data Analyst/GoIT](https://goit.global/ua/courses/data-analytics/) курс, частиною навчання на якому є виконання цього проєкту.
 
 ---
   
-**Project Status:** Completed.
+**Статус проекту:** Завершено.
     
-**License:** MIT License.  
+**Ліцензія:** MIT License.  
