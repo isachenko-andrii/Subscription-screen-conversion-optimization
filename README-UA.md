@@ -7,31 +7,31 @@
   
 </div>
   
-## Project Description
+## Опис проекту
 This project analyzes A/B testing results. The goal of the study is to test the hypothesis that visually highlighting a benefit (adding a "50% Off" banner) will increase conversion to a weekly subscription, even if the actual price ($4.99) remains unchanged.  
   
-## Problem Statement  
+## Постановка проблеми  
 It is necessary to determine whether the difference in user behavior between the control and test groups is statistically significant. The business objective is to make a data-driven decision: implement the new payment screen design for 100% of traffic or maintain the current version.  
   
-## Data used  
+## Використані дані   
   **Source:** [ab_test_data.csv](https://github.com/isachenko-andrii/Subscription-screen-conversion-optimization/blob/main/data/raw/ab_test_data.csv)   
   **Sample size:** 20,000 users  
   **Data composition:**  
   The dataset contains granular information about user interactions during an A/B testing experiment, including unique user identifiers, precise event timestamps, experimental group assignments (Control vs. Variant), and binary conversion outcomes.  
 
- ## Key data attributes  
+ ## Ключові атрибути даних  
    
 **User Identification:** Unique user IDs to ensure sample integrity and track repeat interactions.  
 **Temporal Data:** Timestamps that allow you to analyze test duration, seasonality, and conversion dynamics over time.  
 **Experimental Grouping:** Dividing the audience into segments (Group A and Group B) for comparative analysis of the effectiveness of changes.  
 **Conversion Metrics:** Binary indicators of success (completion or failure of the target action), which is the basis for the statistical calculation of Conversion Rate.  
   
-## Technology stack  
+## Технологічний стек  
 **Language:** Python 3.12  
 **Libraries:** Pandas, NumPy (data processing), Matplotlib & Seaborn (visualization), SciPy (Statistical Analysis).  
 **Environment:** Jupyter Notebook / Google Colab.  
 
-## Methodology and Implementation Steps  
+## Методологія та етапи впровадження  
 
 **- Pre-test Analysis:** Calculating the required sample size to achieve 80% power and a 5% significance level.  
 **- Data Cleaning:** Cleaning the dataset (20,000 records), removing duplicates, checking for missing data, and converting data types.  
@@ -41,7 +41,7 @@ It is necessary to determine whether the difference in user behavior between the
    
 **- Visual Interpretation:** Plotting density distribution graphs (PDF), confidence intervals, and conversion dynamics.  
    
-## Key results  
+## Ключові результати  
    
 **Conversion of group A:** 6.10%  
 **Conversion of group B:** 8.90%  
@@ -52,7 +52,7 @@ It is necessary to determine whether the difference in user behavior between the
   
 **Conclusion:** Test variant B showed a steady increase in conversion. The test result is positive. Hypothesis H1 is confirmed. It is recommended to implement a new design of the Subscription screen for all users.    
   
- ## Visualizations  
+ ## Візуалізації 
    
 The project includes:  
  - Probability distribution conversion rate.
@@ -68,7 +68,7 @@ The project includes:
 ![Probability-distribution-Conversion-Rate](https://github.com/isachenko-andrii/Subscription-screen-conversion-optimization/raw/main/results/Conversion_dynamics.png)
  
   
-## Project structure
+## Структура проекту
 
 **Subscription-screen-conversion-optimization/** — project directory  
     ├── data/ — project data  
@@ -82,7 +82,7 @@ The project includes:
     ├── requirements.txt — list of libraries to run the project  
     └── README.md — project description.  
   
-## How to Use  
+## Як використовувати  
   
 **How to use this project**  
 To run this analysis locally, follow these steps:  
