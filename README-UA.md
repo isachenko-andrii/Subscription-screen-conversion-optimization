@@ -8,16 +8,16 @@
 </div>
   
 ## Опис проекту
-This project analyzes A/B testing results. The goal of the study is to test the hypothesis that visually highlighting a benefit (adding a "50% Off" banner) will increase conversion to a weekly subscription, even if the actual price ($4.99) remains unchanged.  
+Цей проєкт аналізує результати A/B-тестування. Метою дослідження є перевірка гіпотези про те, що візуальне виділення переваги (додавання банера «Знижка 50%) збільшить конверсію в тижневу підписку, навіть якщо фактична ціна ($4,99) залишається незмінною.  
   
 ## Постановка проблеми  
-It is necessary to determine whether the difference in user behavior between the control and test groups is statistically significant. The business objective is to make a data-driven decision: implement the new payment screen design for 100% of traffic or maintain the current version.  
+Необхідно визначити, чи є різниця в поведінці користувачів між контрольною та тестовою групами статистично значущою. Бізнес-мета полягає в прийнятті рішення на основі даних: впровадити новий дизайн екрана оплати для 100% трафіку чи зберегти поточну версію.  
   
 ## Використані дані   
-  **Source:** [ab_test_data.csv](https://github.com/isachenko-andrii/Subscription-screen-conversion-optimization/blob/main/data/raw/ab_test_data.csv)   
-  **Sample size:** 20,000 users  
-  **Data composition:**  
-  The dataset contains granular information about user interactions during an A/B testing experiment, including unique user identifiers, precise event timestamps, experimental group assignments (Control vs. Variant), and binary conversion outcomes.  
+  **Джерело даних:** [ab_test_data.csv](https://github.com/isachenko-andrii/Subscription-screen-conversion-optimization/blob/main/data/raw/ab_test_data.csv)   
+  **Розмір вибірки:** 20,000 користувачів  
+  **Склад даних:** 
+  Набір даних містить детальну інформацію про взаємодію користувачів під час A/B-тестування, включаючи унікальні ідентифікатори користувачів, точні позначки часу подій, розподіл експериментальних груп (контрольна група проти варіантної) та результати бінарної конверсії.  
 
  ## Ключові атрибути даних  
    
