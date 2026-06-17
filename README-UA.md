@@ -33,112 +33,113 @@
 
 ## Методологія та етапи впровадження  
 
-**- Pre-test Analysis:** Calculating the required sample size to achieve 80% power and a 5% significance level.  
-**- Data Cleaning:** Cleaning the dataset (20,000 records), removing duplicates, checking for missing data, and converting data types.  
-**- Hypothesis Testing:**  
- * Conducting a Z-test to compare hypotheses.  
- * Conducting a T-test to verify mean values.  
+**- Аналіз перед тестуванням:** Розрахунок необхідного розміру вибірки для досягнення потужності 80% та рівня значущості 5%.  
+**- Очищення даних:** Очищення набору даних (20 000 записів), видалення дублікатів, перевірка на відсутність даних та перетворення типів даних.  
+**- Перевірка гіпотез:**  
+* Проведення Z-тесту для порівняння гіпотез.  
+* Проведення T-тесту для перевірки середніх значень.  
    
-**- Visual Interpretation:** Plotting density distribution graphs (PDF), confidence intervals, and conversion dynamics.  
+**- Візуальна інтерпретація:** Побудова графіків розподілу густини (PDF), довірчих інтервалів та динаміки конверсії. 
    
 ## Ключові результати  
    
-**Conversion of group A:** 6.10%  
-**Conversion of group B:** 8.90%  
-**P-value:** 0.000000000000054 (the result is statistically significant).  
-**Relative growth:** +45.9%  
-**Statistics:** The resulting p-value (0.00000000000005) is significantly less than the threshold of 0.05.  
-**Z-statistic:** 7.52 (above the critical value of 1.96).  
+**Конверсія групи А:** 6.10%  
+**Конверсія групи B:** 8.90%  
+**P-значення:** 0.000000000000054 (результат є статистично значущим).  
+**Відносне зростання:** +45.9%  
+**Статистика:** Отримане p-значення (0,00000000000005) значно менше за поріг 0,05.  
+**Z-статистика:** 7,52 (вище критичного значення 1,96).   
   
-**Conclusion:** Test variant B showed a steady increase in conversion. The test result is positive. Hypothesis H1 is confirmed. It is recommended to implement a new design of the Subscription screen for all users.    
+**Висновок:** Тестовий варіант B показав стабільне зростання конверсії. Результат тесту позитивний. Гіпотеза H1 підтверджена. Рекомендується впровадити новий дизайн екрана підписки для всіх користувачів.      
   
- ## Візуалізації 
+ ## Візуалізації  
    
-The project includes:  
- - Probability distribution conversion rate.
+Проєкт включає:
+- Коефіцієнт перетворення розподілу ймовірностей. 
   
 ![Probability-distribution-Conversion-Rate](https://github.com/isachenko-andrii/Subscription-screen-conversion-optimization/raw/main/results/Probability_distribution_Conversion_Rate_(v2).png)  
-
-- Probability distribution density.
+  
+- Щільність розподілу ймовірностей.  
     
 ![Probability-distribution-Conversion-Rate](https://github.com/isachenko-andrii/Subscription-screen-conversion-optimization/raw/main/results/Probability_Distribution_Conversion_Rate_(v1).png)  
 
-- Conversion dynamics
+- Динаміка конверсій  
   
 ![Probability-distribution-Conversion-Rate](https://github.com/isachenko-andrii/Subscription-screen-conversion-optimization/raw/main/results/Conversion_dynamics.png)
- 
   
 ## Структура проекту
 
-**Subscription-screen-conversion-optimization/** — project directory  
-    ├── data/ — project data  
-    │ ├──  raw/ — raw data  
-    │ └──  processed/ — cleaned data  
-    ├── notebooks/ — main file with analysis code  
-    ├── results/ — saved graphs and final tables  
-    ├── reports/ — report of project  
-    ├── Project-logo.png — project cover  
+**Subscription-screen-conversion-optimization/** — каталог проекту  
+    ├── data/ — дані проєкту  
+    │ ├──  raw/ — необроблені дані   
+    │ └──  processed/ — очищені дані  
+    ├── notebooks/ — головний файл з кодом аналізу  
+    ├── results/ — збережені графіки та підсумкові таблиці  
+    ├── reports/ — звіт про проект    
+    ├── Project-logo.png — обкладинка проекту   
     ├── LICENSE — MIT License  
-    ├── requirements.txt — list of libraries to run the project  
-    └── README.md — project description.  
+    ├── requirements.txt — список бібліотек для запуску проєкту   
+    └── README.md — опис проекту   
   
 ## Як використовувати  
   
-**How to use this project**  
-To run this analysis locally, follow these steps:  
+**Як використовувати цей проект**  
   
-**1. Download the project file**  
+Щоб виконати цей аналіз локально, виконайте такі дії:  
+  
+**1. Завантажте файл проєкту**  
   
 [project.ipynb](https://github.com/isachenko-andrii/Subscription-screen-conversion-optimization/blob/main/notebooks/project.ipynb)  
   
-File location: https://github.com/isachenko-andrii/Subscription-screen-conversion-optimization/blob/main/notebooks/  
+Розташування файлу: https://github.com/isachenko-andrii/Subscription-screen-conversion-optimization/blob/main/notebooks/  
   
-**2. Download the dataset**
+**2. Завантажити набір даних**
   
 [ab_test_data.csv](https://github.com/isachenko-andrii/Subscription-screen-conversion-optimization/blob/main/data/raw/ab_test_data.csv) 
 
-File location:  
+Розташування файлу:  
 https://github.com/isachenko-andrii/Subscription-screen-conversion-optimization/blob/main/data/raw/    
 
-CSV file content:  
+Вміст CSV-файлу:  
   
-**Detailed description of columns:**  
+**Детальний опис колонок:**  
   
 **user_id (Object/String)**:  
-Type: Unique User Identifier (UUID).  
-Purpose: Used to identify each test participant and track duplicates. Each ID must be unique within the entire test.  
+Тип: Унікальний ідентифікатор користувача (UUID).  
+Призначення: Використовується для ідентифікації кожного учасника тестування та відстеження дублікатів. Кожен ідентифікатор має бути унікальним у межах усього тесту.  
   
-**timestamp (Datetime):**  
-Type: Date and time (YYYY-MM-DD HH:MM:SS).  
+**timestamp (Datetime):**   
+Тип: Дата та час (РРРР-ММ-ДД ГГ:ХХ:СС).
+Призначення: Записує точний момент взаємодії користувача з варіантом тесту. Необхідно для аналізу динаміки тесту та перевірки тривалості.
 Purpose: Records the exact moment when the user interacted with the test variant. Required for analyzing test dynamics and checking duration.  
   
 **test_group (Categorical/String):**  
-Type: Categorical variable.  
-Values:  
-a — Control group (current version of the product).  
-b — Test group (new version with changes).  
-Purpose: Divides the sample into two parts for comparison.  
+Тип: Категорична змінна.
+Значення:
+a — Контрольна група (поточна версія продукту).
+b — Тестова група (нова версія зі змінами).
+Мета: Розділяє вибірку на дві частини для порівняння.
   
 **Conversion (Binary/Integer):**  
-Type: Binary variable (Boolean-like).  
-Value:  
-0 - The target action was not performed (the user did not make a purchase/register).  
-1 - The target action was performed (successful conversion).  
+Тип: Бінарна змінна (подібна до булевої).
+Значення:
+0 - Цільова дія не виконана (користувач не здійснив покупку/не зареєструвався).
+1 - Цільова дія виконана (успішна конверсія).
   
-**3. Running the analysis**
+**3. Виконання аналізу**  
   
-You can open the notebook in Jupyter Notebook, VS Code, or upload it to Google Colab:  
+Ви можете відкрити блокнот у Jupyter Notebook, VS Code або завантажити його до Google Colab: 
   
-• **For Jupyter:** jupyter notebook notebooks/project-notebook.ipynb  
-• **For Colab:** simply upload the project-notebook.ipynb file to your Google Drive.  
+• **У Jupyter:** jupyter notebook notebooks/project-notebook.ipynb  
+• **У Colab:** просто завантажте project-notebook.ipynb файл до вашого Google Drive.  
   
-To connect the dataset to the project locally in step 1. "Data acquisition" of the project, replace the path:  
+Щоб підключити набір даних до проекту локально на кроці 1. "Збір даних" проекту, замініть шлях:  
     
-**Was:**  
+*Було:**  
 df_url = '/content/ab_test_data.csv'  
   
-**Now:**   
-df_url = 'path to file.. /ab_test_data.csv'  
+**Стало:**   
+df_url = 'шлях до файлу.. /ab_test_data.csv'  
   
 ## Контакти  
     
